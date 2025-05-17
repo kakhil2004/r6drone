@@ -9,14 +9,16 @@ You’re free to source your own parts, but here are the ones we used:
 
 | Component             | Link |
 |-----------------------|------|
-| **L298N Motor Driver & Motors** | [Amazon Link](https://a.co/d/e9HFEWe) |
+| **Motors, Screws & Wires** | [Amazon Link](https://a.co/d/3BgiAKo) |
+| **L298N with jumpers** | [Amazon Link](https://a.co/d/dn5BVuh) |
 | **Battery Pack**                | [Amazon Link](https://a.co/d/glCc2qe) |
 | **Battery Charger**             | [Amazon Link](https://a.co/d/avXQsUM) |
 | **Camera Module**              | [Amazon Link](https://a.co/d/7FEJZUs) |
-| **T-Connector**                | [Amazon Link](https://a.co/d/bJOUHKB) |
+| **T-Connector for battery**                | [Amazon Link](https://a.co/d/bJOUHKB) |
 | **Raspberry Pi**              | *Find your own* – RPi 4 Model B or newer is highly recommended |
-| **Power Bank (for RPi)**       | Any standard USB power bank should work |
+| **Power Bank (for RPi)**       | Any standard USB power bank should work, make sure it fits on the baseplate |
 
+**Also you will need to 3d print baseplate.stl**
 ---
 
 ## ⚙️ Setup Instructions
