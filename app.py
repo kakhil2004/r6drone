@@ -16,6 +16,8 @@ log = logging.getLogger('werkzeug')
 log.setLevel(logging.ERROR)
 
 # ===================== CAMERA SETUP =====================
+# libcamera-hello --list-cameras
+# https://bneijt.nl/pr/resolution-scale-calculator/
 picam2 = Picamera2()
 picam2.configure(picam2.create_video_configuration(
     main={"size": (768, 432), "format": "RGB888"}  # Lower res for speed, RGB for color
