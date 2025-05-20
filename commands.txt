@@ -1,0 +1,28 @@
+ifconfig
+
+ssh <root-user>@<ip>
+
+## Camera Setup
+
+sudo apt update
+sudo apt full-upgrade -y
+sudo apt install -y libcamera-apps
+
+## Camera Test
+
+libcamera-hello --list-cameras
+libcamera-still -n -t 1 --width 2304 --height 1296 -o shot.jpg
+
+## Save Image
+
+scp <root-user>@<ip>:~/Desktop/shot.jpg ~/Downloads/
+
+## Code Setup
+
+git clone https://github.com/kakhil2004/r6drone.git
+rm baseplate.stl
+pip3 install -r requirements.txt --break-system-packages
+
+## Code Run 
+
+python3 app.py
